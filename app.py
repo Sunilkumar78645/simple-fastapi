@@ -16,7 +16,7 @@ def get_name(name: str):
 def get_name(name: str):
     return {'Welcome ': f'{name}'}
 
-if __name__ == '__main__':
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+# if __name__ == '__main__':
+#     uvicorn.run(app, host='127.0.0.1', port=8000)
     
 #uvicorn app:app --reload
